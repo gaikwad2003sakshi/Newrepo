@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossom Flower Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3391d4;
+        }
+
+        header {
+            background-color: #5e4b3c;
+            color:white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color:rgb(219, 152, 27);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #a83a3a;
+        }
+
+        .hero {
+            position: relative;
+            background-image: url('https://via.placeholder.com/1500x700?text=Flowers');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 10px 0 0;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+            padding: 0 20px;
+        }
+
+        .product {
+            background-color: rgba(40, 4, 74, 0.37);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #888;
+        }
+
+        footer {
+            background-color: #5e4b3c;
+            color: red;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> Blossom Flower Shop</h1>
+    <p>Your Perfect Bloom Awaits</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <div>
+        <h1>Fresh Flowers for Every Occasion</h1>
+        <p>Explore our beautiful collection</p>
+    </div>
+</section>
+
+<section class="products" id="shop">
+    <div class="product">
+        <img src="redrose.jpg" alt="Flower 1">
+        <h3>Red Roses</h3>
+        <p>Price: $25</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="product">
+        <img src="sunflower.jpg" alt="Flower 2">
+        <h3>Sunflowers</h3>
+        <p>Price: $15</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="product">
+        <img src="lili.jpg" alt="Flower 3">
+        <h3>Lilies</h3>
+        <p>Price: $20</p>
+        <button>Buy Now</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Flower Shop | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
